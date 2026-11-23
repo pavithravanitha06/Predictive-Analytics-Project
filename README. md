@@ -1,0 +1,62 @@
+Predictive Analytics Using Historical Data
+
+Project Overview
+
+This project uses historical airline passenger data to analyze trends and forecast future passenger numbers using machine learning.
+
+Objective
+
+To build a predictive model that forecasts future airline passenger trends based on historical data.
+
+Dataset
+
+- Dataset: Monthly Airline Passenger Data
+- Records: 144 monthly observations
+- Period: 1949–1960
+- Features: Month and number of passengers
+
+Tools and Technologies
+
+- Python
+- Google Colab
+- Pandas
+- Matplotlib
+- Scikit-learn
+
+Methodology
+
+1. Loaded and explored historical passenger data.
+2. Checked missing values and duplicate records.
+3. Converted the Month column to datetime format.
+4. Visualized historical passenger trends.
+5. Split the data chronologically into training and testing sets.
+6. Trained a Linear Regression model.
+7. Improved the model using month-based seasonal features and a quadratic year trend.
+8. Evaluated the model using MAE, MSE, and R² Score.
+9. Visualized actual vs predicted passenger numbers.
+10. Forecasted passenger numbers for the next 12 months.
+
+Model Evaluation
+
+The improved Linear Regression model achieved:
+
+Metric| Value
+MAE| 35.59
+MSE| 1754.40
+R² Score| 0.713
+
+The improved model performed better than the initial model and captured the general trend and seasonal pattern of passenger numbers.
+
+Visualizations
+
+- Historical Airline Passenger Trends
+- Actual vs Predicted Airline Passengers
+- Future Airline Passenger Forecast
+
+Conclusion
+
+The project demonstrates how historical data can be used for predictive analytics. The improved Linear Regression model captured the general passenger growth trend and seasonal variations, and generated a 12-month forecast.
+
+Project File
+
+- "Predictive_Analytics_Project.ipynb" – Notebook containing the code, data analysis, model evaluation, and visualizations.
